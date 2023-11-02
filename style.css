@@ -1,0 +1,1004 @@
+@font-face{
+	font-family: scifi;
+	src:url(Osiris.woff2);
+}
+
+* { margin: 0; padding : 0; }
+
+.body {
+	background-color: rgb(24, 16, 64, 1.0);
+
+}
+
+.header{
+	height: 90px;
+    width: 100%;
+    background-color: grey;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+  	
+}   
+ 
+
+.logo {
+	scale: 0.6;
+    margin-left: 50px;
+    align-content: center;
+    cursor: pointer;
+    transition: 0.15s;
+    height: 70%;
+    margin-top: 12px;
+}
+
+.header_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55px;
+    padding-right: 0px;
+
+}
+
+
+.learn_container, .support_container, .home_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 55px;
+}
+
+
+.button1 {
+    font-family: scifi;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-color: #f76300;
+    border-style: solid;
+    border-width: 1.8;
+    cursor: pointer;
+    transition: 0.15s;
+    background-color: rgb(255, 255, 255, 0.85);
+}
+
+#EARTH{
+    font-size: 40pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(earth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#MOON{
+    font-size: 40pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(moonsur.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#LUSH{
+    font-size: 40pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(lushsur.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#OCEAN{
+    font-size: 40pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(oceansur.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#PORTAL{
+    font-size: 50pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(wormhole.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+.story_container_roof{
+    font-size: 30pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(roof.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+
+.story_container_bar{
+    font-size: 300pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1100px;
+    width: 100%;
+    background-color: grey;
+    background-image: url(bar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+.story_container_informant{
+    font-size: 40pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    background-color: grey;
+    background-image: url(informant.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+.story_container_monolith{
+    font-size: 40pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    background-color: grey;
+    background-image: url(monolith.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+.story_container_animal{
+    font-size: 90pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 100%;
+    background-color: grey;
+    background-image: url(forest.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+.story_container_campsite{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    width: 100%;
+    background-color: grey;
+    background-image: url(camp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+
+.story_container_tide{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    background-color: grey;
+    background-image: url(tide.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+
+.story_container_orb{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1100px;
+    width: 100%;
+    background-color: grey;
+    background-image: url(orb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+
+.story_container_void{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+
+.story_container_white{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+
+.video {
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    opacity: 1;
+}
+
+
+.story_roof{
+	margin-top: 40%;
+	height: 300px;
+	width: 100%;
+	background:rgb(5, 25, 5, 0.4);
+	border-radius: 35px;
+	text-align: left;
+	position: absolute;
+  	top: 45%;
+
+}
+
+.story_bar{
+	margin-top: 40%;
+	height: 900px;
+	width: 100%;
+	background:rgb(5, 25, 5, 0.4);
+	border-radius: 35px;
+	text-align: left;
+	position: absolute;
+  	top: 155%;
+
+}
+.story_bar2{
+	color: black;
+	margin-top: 40%;
+	height: 500px;
+	width: 100%;
+	border-radius: 35px;
+	text-align: left;
+	position: absolute;
+  	top: 105%;
+
+}
+
+.t1{
+	font-family: scifi;
+	color: rgb(109, 6, 146, 0.9);
+	font-size: 30pt;
+	margin-left: 10%;
+}
+
+.text{
+	margin-left: 15%;
+	margin-right: 10%;
+	font-family: monospace;
+	font-size: 20pt;
+}
+
+.ship{
+	display: flex;
+	justify-content: center;
+	margin-top: 70pt;
+}
+
+.mobile{
+    height: 9000px;
+}
+
+#BRIDGE{
+    font-size: 30pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+    background-image: url(bridge.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.map{
+	margin-top: 20pt;
+	height: 1100px;
+	width: 200%;
+	background-repeat: no-repeat;
+	background-image: url(map.png);
+	background-position: left;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    font-size: 90pt;
+
+}
+
+.mapdes{
+	display: flex; 
+	flex-direction: row;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+ {
+    appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    writing-mode: horizontal-tb !important;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+
+@media only screen and (min-width: 640px){
+    @font-face{
+    font-family: scifi;
+    src:url(Osiris.woff2);
+}
+
+* { margin: 0; padding : 0; }
+
+.body {
+    background-color: rgb(24, 16, 64, 1.0);
+
+}
+
+.header{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.95;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+    
+}   
+ 
+
+.logo {
+    scale: 1.4;
+    margin-left: 50px;
+    align-content: center;
+    cursor: pointer;
+    transition: 0.15s;
+    height: 70%;
+    margin-top: 12px;
+}
+
+.header_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55px;
+    padding-right: 10px;
+
+}
+
+
+.learn_container, .support_container, .home_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 55px;
+}
+
+
+.button1 {
+    font-family: scifi;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-color: #f76300;
+    border-style: solid;
+    border-width: 1.8;
+    cursor: pointer;
+    transition: 0.15s;
+    background-color: rgb(255, 255, 255, 0.85);
+}
+
+#EARTH{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(earth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#MOON{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(moonsur.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#LUSH{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(lushsur.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#OCEAN{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(oceansur.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#PORTAL{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(wormhole.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+.story_container_roof{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(roof.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+
+.story_container_bar{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(bar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+.story_container_informant{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(informant.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+.story_container_monolith{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(monolith.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+.story_container_animal{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(forest.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+.story_container_campsite{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(camp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+
+.story_container_tide{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(tide.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+
+.story_container_orb{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(orb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+
+.story_container_void{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+
+.story_container_white{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+;
+
+}
+
+.video {
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    opacity: 1;
+}
+
+
+.story_roof{
+    margin-top: 40%;
+    height: 300px;
+    width: 100%;
+    background:rgb(5, 25, 5, 0.4);
+    border-radius: 35px;
+    text-align: left;
+    position: absolute;
+    top: 25%;
+
+}
+
+.story_bar{
+    margin-top: 40%;
+    height: 500px;
+    width: 100%;
+    background:rgb(5, 25, 5, 0.4);
+    border-radius: 35px;
+    text-align: left;
+    position: absolute;
+    top: 105%;
+
+}
+.story_bar2{
+    color: black;
+    margin-top: 40%;
+    height: 500px;
+    width: 100%;
+    border-radius: 35px;
+    text-align: left;
+    position: absolute;
+    top: 105%;
+
+}
+
+.t1{
+    font-family: scifi;
+    color: rgb(109, 6, 146, 0.9);
+    font-size: 30pt;
+    margin-left: 10%;
+}
+
+.text{
+    margin-left: 15%;
+    margin-right: 10%;
+    font-family: monospace;
+    font-size: 20pt;
+}
+
+.ship{
+    display: flex;
+    justify-content: center;
+    margin-top: 70pt;
+}
+
+#BRIDGE{
+    font-size: 70pt;
+    font-family: scifi;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(bridge.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.map{
+
+    margin-top: 0pt;
+    height: 1200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(map.png);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mapdes{
+    display: flex; 
+    flex-direction: row;
+}
+
+.mobile{
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+ {
+    appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    writing-mode: horizontal-tb !important;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+
+
+}
